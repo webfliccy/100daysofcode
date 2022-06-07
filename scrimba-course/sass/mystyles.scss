@@ -1,0 +1,16 @@
+@charset "utf-8";
+@import "/Library/WebServer/mybulma/bulma-0.9.4/bulma.sass";
+
+// Update some of Bulma's component variables
+$body-background-color: #000;
+$control-border-width: 2px;
+$input-border-color: transparent;
+$input-shadow: none;
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.emoticon { white-space: pre; }
